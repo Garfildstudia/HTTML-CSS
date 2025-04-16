@@ -1,0 +1,37 @@
+body{
+    height:1000px;
+}
+.box_blue{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    displAY: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box_red{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+}
+.box_yellow{
+    height: 400px;
+    width: 400px;
+    background-color: yellow;
+}
+.flexbox{
+    height: 100%;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.box_blue p{
+    text-align: center;
+}
+.box_blue img{
+    width: 50%;
+}
