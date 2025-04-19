@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2_2_hover</title>
+  <style>
+    *{
+      margin: 0;
+    }
+.hover{
+  background-color: #efc8ad;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+ }
+.redbox{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+ }
+.redbox:hover{
+  background-color: #00ff33;
+  border: 1px solid #00ff33;
+  border-radius: 50px;
+  transition: 1s;
+}
+
+  </style>
+</head>
+<body>
+<div class="hover">
+<div class="redbox"></div>
+  <div class="redbox"></div>
+  <div class="redbox"></div>
+  <div class="redbox"></div>
+  <div class="redbox"></div>
+  <div class="redbox"></div>
+</div>
+
+</body>
+</html>

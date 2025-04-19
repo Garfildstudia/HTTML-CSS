@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: rgb(248, 243, 243);
+}
+h2,h5{
+    text-align: center;
+}
+.fridge {
+    height: 93vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.food {
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
