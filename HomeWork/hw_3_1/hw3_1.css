@@ -1,0 +1,28 @@
+header{
+height: 40vh;
+    background-color: #4e4eda;
+    color: #c6cedd;
+   text-align: center;
+    align-content:  center;
+    }
+footer{
+    height: 40vh;
+    background-color: #4e4eda;
+    color: #c6cedd;
+    text-align: center;
+    align-content:  center;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    background-color: #4e4eda;
+    color: #c6cedd;
+    width: 30vw;
+    height: 40vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-content:  center;
+    text-align: center;
+     }
